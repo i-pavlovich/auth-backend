@@ -18,7 +18,7 @@ from src.auth.models import User
 config = context.config
 
 section = config.config_ini_section
-config.set_section_option(section, "DATABASE_URL", settings.database_url)
+config.set_section_option(section, "DATABASE_URL", settings.DATABASE_URL)
 
 # Interpret the config file for Python logging.
 # This line sets up loggers basically.
